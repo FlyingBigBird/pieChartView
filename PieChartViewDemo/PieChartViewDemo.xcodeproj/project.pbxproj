@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E8C222121B50E3C007EC1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C222021B50E3C007EC1DA /* AppDelegate.m */; };
+		2E8C222421B50E3C007EC1DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C222321B50E3C007EC1DA /* ViewController.m */; };
+		2E8C222721B50E3C007EC1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C222521B50E3C007EC1DA /* Main.storyboard */; };
+		2E8C222921B50E3C007EC1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C222821B50E3C007EC1DA /* Assets.xcassets */; };
+		2E8C222C21B50E3C007EC1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8C222A21B50E3C007EC1DA /* LaunchScreen.storyboard */; };
+		2E8C222F21B50E3C007EC1DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C222E21B50E3C007EC1DA /* main.m */; };
+		2E8C223921B50E3C007EC1DA /* PieChartViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C223821B50E3C007EC1DA /* PieChartViewDemoTests.m */; };
+		2E8C224421B50E3C007EC1DA /* PieChartViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C224321B50E3C007EC1DA /* PieChartViewDemoUITests.m */; };
+		2E8C225821B514F0007EC1DA /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C225421B514F0007EC1DA /* PieChartView.m */; };
+		2E8C225921B514F0007EC1DA /* PieChartIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C225521B514F0007EC1DA /* PieChartIndicatorView.m */; };
+		2E8C225A21B514F0007EC1DA /* PieChartCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C225621B514F0007EC1DA /* PieChartCenterView.m */; };
+		2E8C225D21B51540007EC1DA /* PieChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C225B21B51540007EC1DA /* PieChartModel.m */; };
+		2E8C226021B51620007EC1DA /* UILabel+LabCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C225F21B51620007EC1DA /* UILabel+LabCornerRadius.m */; };
+		2E8C226321B516B1007EC1DA /* UIColor+UIColor_HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C226121B516B1007EC1DA /* UIColor+UIColor_HexString.m */; };
+		2E8C226721B517E1007EC1DA /* HomePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8C226621B517E1007EC1DA /* HomePageModel.m */; };
+		D2C58DB03A2887231CAE7ED8 /* libPods-PieChartViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 560F4ECFF1CD4FD526FFFE40 /* libPods-PieChartViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E8C223521B50E3C007EC1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E8C221421B50E3C007EC1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E8C221B21B50E3C007EC1DA;
+			remoteInfo = PieChartViewDemo;
+		};
+		2E8C224021B50E3C007EC1DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E8C221421B50E3C007EC1DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E8C221B21B50E3C007EC1DA;
+			remoteInfo = PieChartViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11592523B36F74D571276934 /* Pods-PieChartViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieChartViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PieChartViewDemo/Pods-PieChartViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2E8C221C21B50E3C007EC1DA /* PieChartViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChartViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8C221F21B50E3C007EC1DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E8C222021B50E3C007EC1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E8C222221B50E3C007EC1DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E8C222321B50E3C007EC1DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E8C222621B50E3C007EC1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E8C222821B50E3C007EC1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E8C222B21B50E3C007EC1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E8C222D21B50E3C007EC1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8C222E21B50E3C007EC1DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E8C223421B50E3C007EC1DA /* PieChartViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieChartViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8C223821B50E3C007EC1DA /* PieChartViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartViewDemoTests.m; sourceTree = "<group>"; };
+		2E8C223A21B50E3C007EC1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8C223F21B50E3C007EC1DA /* PieChartViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieChartViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8C224321B50E3C007EC1DA /* PieChartViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PieChartViewDemoUITests.m; sourceTree = "<group>"; };
+		2E8C224521B50E3C007EC1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8C225221B514F0007EC1DA /* PieChartCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartCenterView.h; sourceTree = "<group>"; };
+		2E8C225321B514F0007EC1DA /* PieChartIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartIndicatorView.h; sourceTree = "<group>"; };
+		2E8C225421B514F0007EC1DA /* PieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
+		2E8C225521B514F0007EC1DA /* PieChartIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartIndicatorView.m; sourceTree = "<group>"; };
+		2E8C225621B514F0007EC1DA /* PieChartCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartCenterView.m; sourceTree = "<group>"; };
+		2E8C225721B514F0007EC1DA /* PieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
+		2E8C225B21B51540007EC1DA /* PieChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartModel.m; sourceTree = "<group>"; };
+		2E8C225C21B51540007EC1DA /* PieChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartModel.h; sourceTree = "<group>"; };
+		2E8C225E21B51620007EC1DA /* UILabel+LabCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LabCornerRadius.h"; sourceTree = "<group>"; };
+		2E8C225F21B51620007EC1DA /* UILabel+LabCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LabCornerRadius.m"; sourceTree = "<group>"; };
+		2E8C226121B516B1007EC1DA /* UIColor+UIColor_HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor_HexString.m"; sourceTree = "<group>"; };
+		2E8C226221B516B1007EC1DA /* UIColor+UIColor_HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor_HexString.h"; sourceTree = "<group>"; };
+		2E8C226521B517E1007EC1DA /* HomePageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageModel.h; sourceTree = "<group>"; };
+		2E8C226621B517E1007EC1DA /* HomePageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageModel.m; sourceTree = "<group>"; };
+		560F4ECFF1CD4FD526FFFE40 /* libPods-PieChartViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PieChartViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED8A722F9472AF9F216B096 /* Pods-PieChartViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PieChartViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PieChartViewDemo/Pods-PieChartViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E8C221921B50E3C007EC1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C58DB03A2887231CAE7ED8 /* libPods-PieChartViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8C223121B50E3C007EC1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8C223C21B50E3C007EC1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E8C221321B50E3C007EC1DA = {
+			isa = PBXGroup;
+			children = (
+				2E8C221E21B50E3C007EC1DA /* PieChartViewDemo */,
+				2E8C223721B50E3C007EC1DA /* PieChartViewDemoTests */,
+				2E8C224221B50E3C007EC1DA /* PieChartViewDemoUITests */,
+				2E8C221D21B50E3C007EC1DA /* Products */,
+				397BF83423869F19B58884A1 /* Pods */,
+				3741A25D2C8049BC54CE5141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E8C221D21B50E3C007EC1DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C221C21B50E3C007EC1DA /* PieChartViewDemo.app */,
+				2E8C223421B50E3C007EC1DA /* PieChartViewDemoTests.xctest */,
+				2E8C223F21B50E3C007EC1DA /* PieChartViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E8C221E21B50E3C007EC1DA /* PieChartViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C226821B517E6007EC1DA /* Model */,
+				2E8C226421B516B9007EC1DA /* Extension */,
+				2E8C225121B514B8007EC1DA /* PieChartModule */,
+				2E8C221F21B50E3C007EC1DA /* AppDelegate.h */,
+				2E8C222021B50E3C007EC1DA /* AppDelegate.m */,
+				2E8C222221B50E3C007EC1DA /* ViewController.h */,
+				2E8C222321B50E3C007EC1DA /* ViewController.m */,
+				2E8C222521B50E3C007EC1DA /* Main.storyboard */,
+				2E8C222821B50E3C007EC1DA /* Assets.xcassets */,
+				2E8C222A21B50E3C007EC1DA /* LaunchScreen.storyboard */,
+				2E8C222D21B50E3C007EC1DA /* Info.plist */,
+				2E8C222E21B50E3C007EC1DA /* main.m */,
+			);
+			path = PieChartViewDemo;
+			sourceTree = "<group>";
+		};
+		2E8C223721B50E3C007EC1DA /* PieChartViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C223821B50E3C007EC1DA /* PieChartViewDemoTests.m */,
+				2E8C223A21B50E3C007EC1DA /* Info.plist */,
+			);
+			path = PieChartViewDemoTests;
+			sourceTree = "<group>";
+		};
+		2E8C224221B50E3C007EC1DA /* PieChartViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C224321B50E3C007EC1DA /* PieChartViewDemoUITests.m */,
+				2E8C224521B50E3C007EC1DA /* Info.plist */,
+			);
+			path = PieChartViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		2E8C225121B514B8007EC1DA /* PieChartModule */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C225221B514F0007EC1DA /* PieChartCenterView.h */,
+				2E8C225621B514F0007EC1DA /* PieChartCenterView.m */,
+				2E8C225321B514F0007EC1DA /* PieChartIndicatorView.h */,
+				2E8C225521B514F0007EC1DA /* PieChartIndicatorView.m */,
+				2E8C225721B514F0007EC1DA /* PieChartView.h */,
+				2E8C225421B514F0007EC1DA /* PieChartView.m */,
+			);
+			path = PieChartModule;
+			sourceTree = "<group>";
+		};
+		2E8C226421B516B9007EC1DA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C225E21B51620007EC1DA /* UILabel+LabCornerRadius.h */,
+				2E8C225F21B51620007EC1DA /* UILabel+LabCornerRadius.m */,
+				2E8C226221B516B1007EC1DA /* UIColor+UIColor_HexString.h */,
+				2E8C226121B516B1007EC1DA /* UIColor+UIColor_HexString.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2E8C226821B517E6007EC1DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E8C226521B517E1007EC1DA /* HomePageModel.h */,
+				2E8C226621B517E1007EC1DA /* HomePageModel.m */,
+				2E8C225C21B51540007EC1DA /* PieChartModel.h */,
+				2E8C225B21B51540007EC1DA /* PieChartModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3741A25D2C8049BC54CE5141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				560F4ECFF1CD4FD526FFFE40 /* libPods-PieChartViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		397BF83423869F19B58884A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED8A722F9472AF9F216B096 /* Pods-PieChartViewDemo.debug.xcconfig */,
+				11592523B36F74D571276934 /* Pods-PieChartViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E8C221B21B50E3C007EC1DA /* PieChartViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8C224821B50E3C007EC1DA /* Build configuration list for PBXNativeTarget "PieChartViewDemo" */;
+			buildPhases = (
+				3033563A78AEB4B7C719E677 /* [CP] Check Pods Manifest.lock */,
+				2E8C221821B50E3C007EC1DA /* Sources */,
+				2E8C221921B50E3C007EC1DA /* Frameworks */,
+				2E8C221A21B50E3C007EC1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieChartViewDemo;
+			productName = PieChartViewDemo;
+			productReference = 2E8C221C21B50E3C007EC1DA /* PieChartViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E8C223321B50E3C007EC1DA /* PieChartViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8C224B21B50E3C007EC1DA /* Build configuration list for PBXNativeTarget "PieChartViewDemoTests" */;
+			buildPhases = (
+				2E8C223021B50E3C007EC1DA /* Sources */,
+				2E8C223121B50E3C007EC1DA /* Frameworks */,
+				2E8C223221B50E3C007EC1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E8C223621B50E3C007EC1DA /* PBXTargetDependency */,
+			);
+			name = PieChartViewDemoTests;
+			productName = PieChartViewDemoTests;
+			productReference = 2E8C223421B50E3C007EC1DA /* PieChartViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E8C223E21B50E3C007EC1DA /* PieChartViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8C224E21B50E3C007EC1DA /* Build configuration list for PBXNativeTarget "PieChartViewDemoUITests" */;
+			buildPhases = (
+				2E8C223B21B50E3C007EC1DA /* Sources */,
+				2E8C223C21B50E3C007EC1DA /* Frameworks */,
+				2E8C223D21B50E3C007EC1DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E8C224121B50E3C007EC1DA /* PBXTargetDependency */,
+			);
+			name = PieChartViewDemoUITests;
+			productName = PieChartViewDemoUITests;
+			productReference = 2E8C223F21B50E3C007EC1DA /* PieChartViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E8C221421B50E3C007EC1DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = BaoBao;
+				TargetAttributes = {
+					2E8C221B21B50E3C007EC1DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2E8C223321B50E3C007EC1DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E8C221B21B50E3C007EC1DA;
+					};
+					2E8C223E21B50E3C007EC1DA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E8C221B21B50E3C007EC1DA;
+					};
+				};
+			};
+			buildConfigurationList = 2E8C221721B50E3C007EC1DA /* Build configuration list for PBXProject "PieChartViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E8C221321B50E3C007EC1DA;
+			productRefGroup = 2E8C221D21B50E3C007EC1DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E8C221B21B50E3C007EC1DA /* PieChartViewDemo */,
+				2E8C223321B50E3C007EC1DA /* PieChartViewDemoTests */,
+				2E8C223E21B50E3C007EC1DA /* PieChartViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E8C221A21B50E3C007EC1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8C222C21B50E3C007EC1DA /* LaunchScreen.storyboard in Resources */,
+				2E8C222921B50E3C007EC1DA /* Assets.xcassets in Resources */,
+				2E8C222721B50E3C007EC1DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8C223221B50E3C007EC1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8C223D21B50E3C007EC1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3033563A78AEB4B7C719E677 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PieChartViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E8C221821B50E3C007EC1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8C225821B514F0007EC1DA /* PieChartView.m in Sources */,
+				2E8C222421B50E3C007EC1DA /* ViewController.m in Sources */,
+				2E8C222F21B50E3C007EC1DA /* main.m in Sources */,
+				2E8C225D21B51540007EC1DA /* PieChartModel.m in Sources */,
+				2E8C225A21B514F0007EC1DA /* PieChartCenterView.m in Sources */,
+				2E8C226721B517E1007EC1DA /* HomePageModel.m in Sources */,
+				2E8C226021B51620007EC1DA /* UILabel+LabCornerRadius.m in Sources */,
+				2E8C222121B50E3C007EC1DA /* AppDelegate.m in Sources */,
+				2E8C226321B516B1007EC1DA /* UIColor+UIColor_HexString.m in Sources */,
+				2E8C225921B514F0007EC1DA /* PieChartIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8C223021B50E3C007EC1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8C223921B50E3C007EC1DA /* PieChartViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8C223B21B50E3C007EC1DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8C224421B50E3C007EC1DA /* PieChartViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E8C223621B50E3C007EC1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E8C221B21B50E3C007EC1DA /* PieChartViewDemo */;
+			targetProxy = 2E8C223521B50E3C007EC1DA /* PBXContainerItemProxy */;
+		};
+		2E8C224121B50E3C007EC1DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E8C221B21B50E3C007EC1DA /* PieChartViewDemo */;
+			targetProxy = 2E8C224021B50E3C007EC1DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E8C222521B50E3C007EC1DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8C222621B50E3C007EC1DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E8C222A21B50E3C007EC1DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8C222B21B50E3C007EC1DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E8C224621B50E3C007EC1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E8C224721B50E3C007EC1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E8C224921B50E3C007EC1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED8A722F9472AF9F216B096 /* Pods-PieChartViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL74WAQM4C;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PieChartViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baobaodaren.macOs.baobao.PieChartViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E8C224A21B50E3C007EC1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11592523B36F74D571276934 /* Pods-PieChartViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL74WAQM4C;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PieChartViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baobaodaren.macOs.baobao.PieChartViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E8C224C21B50E3C007EC1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL74WAQM4C;
+				INFOPLIST_FILE = PieChartViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baobaodaren.macOs.baobao.PieChartViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PieChartViewDemo.app/PieChartViewDemo";
+			};
+			name = Debug;
+		};
+		2E8C224D21B50E3C007EC1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL74WAQM4C;
+				INFOPLIST_FILE = PieChartViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baobaodaren.macOs.baobao.PieChartViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PieChartViewDemo.app/PieChartViewDemo";
+			};
+			name = Release;
+		};
+		2E8C224F21B50E3C007EC1DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL74WAQM4C;
+				INFOPLIST_FILE = PieChartViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baobaodaren.macOs.baobao.PieChartViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PieChartViewDemo;
+			};
+			name = Debug;
+		};
+		2E8C225021B50E3C007EC1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YL74WAQM4C;
+				INFOPLIST_FILE = PieChartViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baobaodaren.macOs.baobao.PieChartViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PieChartViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E8C221721B50E3C007EC1DA /* Build configuration list for PBXProject "PieChartViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8C224621B50E3C007EC1DA /* Debug */,
+				2E8C224721B50E3C007EC1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8C224821B50E3C007EC1DA /* Build configuration list for PBXNativeTarget "PieChartViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8C224921B50E3C007EC1DA /* Debug */,
+				2E8C224A21B50E3C007EC1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8C224B21B50E3C007EC1DA /* Build configuration list for PBXNativeTarget "PieChartViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8C224C21B50E3C007EC1DA /* Debug */,
+				2E8C224D21B50E3C007EC1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8C224E21B50E3C007EC1DA /* Build configuration list for PBXNativeTarget "PieChartViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8C224F21B50E3C007EC1DA /* Debug */,
+				2E8C225021B50E3C007EC1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E8C221421B50E3C007EC1DA /* Project object */;
+}
